@@ -8,15 +8,15 @@ try:
         exit()
 
     elif (x >= 90):
-        print("A")
+        print("Grade is: A")
     elif (x >= 80):
-        print("B")
+        print("Grade is: B")
     elif (x >= 70):
-        print("C")
+        print("Grade is: C")
     elif (x >= 60):
-        print("D")
+        print("Grade is: D")
     else:
-        print("F")
+        print("Grade is: F")
 except:
     print("Please enter number")
     exit()
